@@ -19,6 +19,7 @@
 </head>
 <body>
 <h1>花卉销售管理平台</h1>
+<%--更新--%>
 <form:form action="/flowerController/index1" method="post" modelAttribute="list">
     <span>请选择花卉分类：</span>
     <select name="typename">
