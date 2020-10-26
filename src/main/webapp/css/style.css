@@ -1,0 +1,35 @@
+
+
+
+#nav_ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color:#bebebe;
+    border-radius: 15px;
+}
+.nav_li {
+    float:right;
+}
+nav {
+    /*border: red solid;*/
+    border-radius: 15px;
+}
+.nav_a:link,.nav_a:visited {
+    display:block;
+    width:120px;
+    font-weight:bold;
+    color:#FFFFFF;
+    background-color:#bebebe;
+    text-align:center;
+    padding:4px;
+    text-decoration:none;
+    text-transform:uppercase;
+}
+.nav_a:hover,.nav_a:active {
+    background-color:#cc0000;
+}
+#foot {
+    text-align: center;
+}
